@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		62816DE12BB9A7C200D51B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816DE02BB9A7C200D51B84 /* AppDelegate.swift */; };
 		62816DE32BB9A7C200D51B84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816DE22BB9A7C200D51B84 /* SceneDelegate.swift */; };
-		62816DE52BB9A7C200D51B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816DE42BB9A7C200D51B84 /* ViewController.swift */; };
+		62816DE52BB9A7C200D51B84 /* CowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816DE42BB9A7C200D51B84 /* CowViewController.swift */; };
 		62816DE82BB9A7C200D51B84 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 62816DE72BB9A7C200D51B84 /* Base */; };
-		62816DEB2BB9A7C200D51B84 /* Climate_Cow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62816DE92BB9A7C200D51B84 /* Climate_Cow.xcdatamodeld */; };
+		62816DEB2BB9A7C200D51B84 /* LXP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62816DE92BB9A7C200D51B84 /* LXP.xcdatamodeld */; };
 		62816DED2BB9A7C400D51B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62816DEC2BB9A7C400D51B84 /* Assets.xcassets */; };
 		62816DF02BB9A7C400D51B84 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 62816DEF2BB9A7C400D51B84 /* Base */; };
 		62816DFB2BB9A7C400D51B84 /* Climate_CowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816DFA2BB9A7C400D51B84 /* Climate_CowTests.swift */; };
 		62816E052BB9A7C400D51B84 /* Climate_CowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816E042BB9A7C400D51B84 /* Climate_CowUITests.swift */; };
 		62816E072BB9A7C400D51B84 /* Climate_CowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816E062BB9A7C400D51B84 /* Climate_CowUITestsLaunchTests.swift */; };
+		E9F9A6E62BCC41FD00289A97 /* FootprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F9A6E52BCC41FD00289A97 /* FootprintViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		62816DDD2BB9A7C200D51B84 /* Climate Cow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climate Cow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62816DE02BB9A7C200D51B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62816DE22BB9A7C200D51B84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		62816DE42BB9A7C200D51B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62816DE42BB9A7C200D51B84 /* CowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowViewController.swift; sourceTree = "<group>"; };
 		62816DE72BB9A7C200D51B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62816DEA2BB9A7C200D51B84 /* Climate_Cow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Climate_Cow.xcdatamodel; sourceTree = "<group>"; };
 		62816DEC2BB9A7C400D51B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		62816E002BB9A7C400D51B84 /* Climate CowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Climate CowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62816E042BB9A7C400D51B84 /* Climate_CowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climate_CowUITests.swift; sourceTree = "<group>"; };
 		62816E062BB9A7C400D51B84 /* Climate_CowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climate_CowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9F9A6E52BCC41FD00289A97 /* FootprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +105,13 @@
 			children = (
 				62816DE02BB9A7C200D51B84 /* AppDelegate.swift */,
 				62816DE22BB9A7C200D51B84 /* SceneDelegate.swift */,
-				62816DE42BB9A7C200D51B84 /* ViewController.swift */,
+				62816DE42BB9A7C200D51B84 /* CowViewController.swift */,
+				E9F9A6E52BCC41FD00289A97 /* FootprintViewController.swift */,
 				62816DE62BB9A7C200D51B84 /* Main.storyboard */,
 				62816DEC2BB9A7C400D51B84 /* Assets.xcassets */,
 				62816DEE2BB9A7C400D51B84 /* LaunchScreen.storyboard */,
 				62816DF12BB9A7C400D51B84 /* Info.plist */,
-				62816DE92BB9A7C200D51B84 /* Climate_Cow.xcdatamodeld */,
+				62816DE92BB9A7C200D51B84 /* LXP.xcdatamodeld */,
 			);
 			path = "Climate Cow";
 			sourceTree = "<group>";
@@ -261,10 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62816DE52BB9A7C200D51B84 /* ViewController.swift in Sources */,
+				E9F9A6E62BCC41FD00289A97 /* FootprintViewController.swift in Sources */,
+				62816DE52BB9A7C200D51B84 /* CowViewController.swift in Sources */,
 				62816DE12BB9A7C200D51B84 /* AppDelegate.swift in Sources */,
 				62816DE32BB9A7C200D51B84 /* SceneDelegate.swift in Sources */,
-				62816DEB2BB9A7C200D51B84 /* Climate_Cow.xcdatamodeld in Sources */,
+				62816DEB2BB9A7C200D51B84 /* LXP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,13 +617,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		62816DE92BB9A7C200D51B84 /* Climate_Cow.xcdatamodeld */ = {
+		62816DE92BB9A7C200D51B84 /* LXP.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				62816DEA2BB9A7C200D51B84 /* Climate_Cow.xcdatamodel */,
 			);
 			currentVersion = 62816DEA2BB9A7C200D51B84 /* Climate_Cow.xcdatamodel */;
-			path = Climate_Cow.xcdatamodeld;
+			path = LXP.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
